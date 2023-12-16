@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtAction2_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/Action2_Welcome"
+        android:textAlignment="center"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAction2_Description"
+        android:layout_width="383dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/Action2_Description"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAction2_Welcome" />
+
+    <Button
+        android:id="@+id/btnAction2_btnSeeRecords"
+        android:layout_width="146dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/Action2_btnSeeRecords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAction2_Description" />
+
+    <TextView
+        android:id="@+id/txtAction2_SeeResults"
+        android:layout_width="338dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Action2_DummyText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAction2_btnSeeRecords" />
+
+    <TextView
+        android:id="@+id/txtAction2_ConditionalUIText"
+        android:layout_width="317dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Action2_CondiotnalResult"
+        android:textSize="60px"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAction2_SeeResults" />
+</androidx.constraintlayout.widget.ConstraintLayout>

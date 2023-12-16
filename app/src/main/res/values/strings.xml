@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SQL_Connection</string>
+    <string name="welcomeText">SQL CONNECTION DEMO\n</string>
+    <string name="description">This java android app is auto connected to the database.</string>
+    <string name="Actions">Actions</string>
+    <string name="seeRecords">See records</string>
+    <string name="ConditionalUI">SEE RECORDS WITH CONDITIONAL UI</string>
+    <string name="Action1_Welcome">See records</string>
+    <string name="Action1_Description">This page is a simple demo to get records from a table.</string>
+    <string name="Action1_buttonGetRecords">Get records</string>
+    <string name="Action1_DummyText">Results will be loaded here</string>
+    <string name="Action2_Welcome">See records with conditional UI</string>
+    <string name="Action2_Description">This page is to showcase how to set the visibility of UI components.</string>
+    <string name="Action2_btnSeeRecords">See records\n</string>
+    <string name="Action2_DummyText">Records will be shown here\n</string>
+    <string name="Action2_CondiotnalResult">This will show when you got the records</string>
+</resources>
